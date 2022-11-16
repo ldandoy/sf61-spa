@@ -1,0 +1,18 @@
+<nav>
+    <ul>
+        <li><a 
+            hx-target="#root"
+            hx-get="{{ path('app_home') }}"
+            hx-swap="innerHTML"
+            hx-push-url="/"
+            href="{{ path('app_home') }}"
+        >Accueil</a></li>
+        <li><a 
+            hx-target="#root"
+            hx-get="{{ path('app_contact') }}"
+            hx-swap="innerHTML"
+            hx-push-url="/contact"
+            href="{{ path('app_contact') }}"
+        >Contact</a></li>
+    </ul>
+</nav>

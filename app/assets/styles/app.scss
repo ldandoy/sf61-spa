@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: aliceblue;
+    
+    ul {
+        list-style: none;
+        display: flex;
+    
+        li {
+            display: inline-block;
+            margin: 0 20px;
+        
+            a {
+                color: black;
+                text-decoration: none;
+                display: inline-block;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+.container {
+    width: 70%;
+    margin: 2% auto;
+}
